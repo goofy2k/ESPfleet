@@ -45,7 +45,7 @@ The dashboard consists of 2 screens:
 
 ![alt text](https://github.com/goofy2k/ESPfleet/blob/main/media/Screenshot_Fleet_Mgr.jpg?raw=true)
 
-When a board sends contacts the MQTT broker for the first time it's properties are shown in a table in the Fleet mgr. 
+For each board that contacts the MQTT broker for the first time the properties are collected in a table in the Fleet mgr. The table is updated, every time that a board finishes a wake-up deepsleep cycle.  With the clear fleet button, the table is erased. The input field and  
 -  clear fleet button, refresh table button,
 -    current time, last contact with a device
 - The devices are listed in the order of first contact. 
