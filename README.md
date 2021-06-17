@@ -41,7 +41,7 @@ The management dashboard is implemented in Nodered. In this repository only the 
 The dashboard consists of 2 screens:
 
 1. The Fleet mgr, with an overview of devices in the fleet.
-2. A device editor for setting parameters of a device and triggering a firmware update
+2. A Device Editor for setting parameters of a device and announcing/triggering a firmware update
 
 
 ![alt text](https://github.com/goofy2k/ESPfleet/blob/main/media/Screenshot_Fleet_Mgr.jpg?raw=true)
