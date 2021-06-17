@@ -5,16 +5,16 @@
  
 The objective of this project is to generate a system for maintaining a "fleet" of ESP microcontroller boards, including (automatic) firmware updates.
  
-The boards connect to local WiFi and and an MQTT broker. .
+The boards connect to local WiFi and and an MQTT broker. 
 Two Nodered flows communicate with the boards via MQTT. This is done via the command_API() routine.
 
 1. Overview and current status of all connected boards
 2. Editor for changing parameters per board
  
 This code is Version 2.10 of the firmware for ESP32 boards. It enables over the air (OTA) updates of the
-firmware (.bin) that has been create dwith the Arduino IDE.
+firmware (.bin) that has been created with the Arduino IDE.
 
-The firmware is available for download by the boards from a web-server. The Nodered boards manager 
+The firmware is available for download by the boards from a web-server (OTA). The Nodered fleet-manager 
 supplies the boards (or a selection of them) with the name and location of the firmware. The boards automatically
 download and install the update.
 
