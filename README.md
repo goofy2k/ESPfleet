@@ -49,7 +49,7 @@ For each board that contacts the MQTT broker for the first time the properties a
 
 Above the table the properties are listed of the device that was the last to send an update.
 
-{"deviceId":"8468FAC40A24","blocked":false,"IP":"192.168.2.21","lowpowermode":true,"sleeptime":33,"VersionStr":"V2.10 build 1","autoupdate":false,"lastupdate":"OTAstr"}
+All information in the table are received from the devices over MQTT/WiFi.
 
 - The devices are listed in the order of first contact after the last "clear fleet" action.
 - The unique deviceId contains it's MAC address in reverse order. The last 4 hex digits in this code are representative for the board type (e.g. Heltec LORA32 (01E6E2E0), TTGO LORA32 (FAC40A24)
