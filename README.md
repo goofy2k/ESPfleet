@@ -3,9 +3,9 @@
  
 ## Goal
  
-The objective of this project is to generate a system for maintaining a "fleet" of ESP microcontroller boards.
+The objective of this project is to generate a system for maintaining a "fleet" of ESP microcontroller boards, including (automatic) firmware updates.
  
-The boards connect to local WiFi and a (local) MQTT broker. 
+The boards connect to local WiFi and and an MQTT broker. .
 Two Nodered flows communicate with the boards via MQTT. This is done via the command_API() routine.
 
 1. Overview and current status of all connected boards
@@ -33,4 +33,8 @@ unknown to me how to handle versioning with Github / Arduino IDE.
     - 2x TTGO LORA32 ....
     
     power supply: 1000 mAh Lithium Rechargeable Battery (MakerFocus)
+    
+## Fleet management dashboard (Nodered)
+
+
 
