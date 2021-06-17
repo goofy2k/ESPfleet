@@ -45,10 +45,11 @@ The dashboard consists of 2 screens:
 
 ![alt text](https://github.com/goofy2k/ESPfleet/blob/main/media/Screenshot_Fleet_Mgr.jpg?raw=true)
 
-For each board that contacts the MQTT broker for the first time the properties are collected in a table in the Fleet mgr. The table is updated, every time that a board finishes a wake-up deepsleep cycle.  With the clear fleet button, the table is erased. The input field and  
--  clear fleet button, refresh table button,
--    current time, last contact with a device
-- The devices are listed in the order of first contact. 
+For each board that contacts the MQTT broker for the first time the properties are collected in a table in the Fleet mgr. The table is updated, every time that a board finishes a wake-up deepsleep cycle.  With the clear fleet button, the table is erased. The input field and  "refresh table" button are obsolete.
+
+Above the table the properties are listed of the device that was the last to send an update.
+
+- The devices are listed in the order of first contact after the last "clear fleet" action.
 - The unique deviceId contains it's MAC address in reverse order. The last digits in the code are representative for the board type (e.g. Heltec LORA32 ....., TTGO LORA32 ......
 - A device can be blocked from the services (see device Editor). This is not yet implemented. 
 - Currently the devices acquire a dynamic IP address on the local network. WiFi credentials (ssid and password) are currently fixed. It requires a construction with the board acting as an access point to allow end-users to set their own parameters. Static adressess are also possible, but the details are not yet implemented. 
