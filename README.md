@@ -65,8 +65,11 @@ All information in the table are received from the devices over MQTT/WiFi.
 
 ![alt text](https://github.com/goofy2k/ESPfleet/blob/main/media/Screenshot_Device_Editor.jpg?raw=true)
 
+A number of the entries should be clear from the description of the fleet manager.
+
 In the right part of the device editor a device can be selected with a dropdown menu. Currently this is via it's index number in the Fleet mgr table. The active settings for the selected device are loaded into the form on the left side, wher they can be edited. 
 When the update firmware switch is set, the selected device will download the binary file from the server (host) at the indicated location (path). This will always be done after execution of the main tasks, just before going to sleep. After a succesfull download, the device will reboot and start the new firmware immediately. The (possibly updated) tasks will be executed again before the board goes to sleep again. 
 
-Commands by the Fleet mgr are sent to the MQTT broker by pressing the Submit button. The broker sends the message when the board is awake or when it wakes up (QoS = 1). 
-A number of the entries should be clear from the description of the fleet manager.
+Commands by the Fleet mgr are sent to the MQTT broker by pressing the Submit button. The broker sends the message when the board is awake or stores it and sends it when the board wakes up (QoS = 1). 
+
+The cancel and stop buttons are obsolete.
