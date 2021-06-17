@@ -1,7 +1,7 @@
 # ESPfleet
  Manage fleet of ESP32/ESP8266 boards with Nodered
  
-##Goal
+## Goal
  
 The objective of this project is to generate a system for maintaining a "fleet" of ESP microcontroller boards.
  
@@ -20,14 +20,14 @@ download and install the update.
 
 The boards execute an awake - deep sleep cycle with configurable sleep time. This enables long battery life. 
  
-##About this code 
+## About this code 
 
 The ESP firmware is written in the Arduino IDE. Development Notes have been kept in a README.md.ino file.
 The .ino extension of this file is necessary to open it for editing in a tab in the Arduino IDE 
 Versions have until now been managed by creation of new folders, accessible by the Arduino IDE. It is yet
 unknown to me how to handle versioning with Github / Arduino IDE.
  
-##Currently running board fleet hardware
+## Currently running board fleet hardware
 
     - 1x Heltec LORA32 .....
     - 2x TTGO LORA32 ....
