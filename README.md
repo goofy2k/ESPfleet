@@ -72,4 +72,6 @@ When the update firmware switch is set, the selected device will download the bi
 
 Commands by the Fleet mgr are sent to the MQTT broker by pressing the Submit button. The broker sends the message when the board is awake or stores it and sends it when the board wakes up (QoS = 1). 
 
+The update all devices is not active yet. It can be used e.g. to sent an "update available" message to all active device instead of to only the edited device.
+
 The cancel and stop buttons are obsolete.
