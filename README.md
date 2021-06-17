@@ -37,4 +37,4 @@ unknown to me how to handle versioning with Github / Arduino IDE.
 ## Fleet management dashboard (Nodered)
 
 
-![alt text](https://github.com/[Goofy2k]/ESPfleet/blob/main/media/Screenshot Device editor.jpg?raw=true)
+![alt text](https://github.com/[Goofy2k]/ESPfleet/blob/main/media/Screenshot_Device_Editor.jpg?raw=true)
