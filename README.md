@@ -40,13 +40,13 @@ The management dashboard is implemented in Nodered. In this repository only the 
 
 The dashboard consists of 2 screens:
 
-1. The Fleet mgr, with an overview of devices in the fleet.
-2. A Device Editor for setting parameters of a device and announcing/triggering a firmware update
+1. The ***Fleet mgr***, with an overview of devices in the fleet.
+2. A ***Device Editor*** for setting parameters of a device and announcing/triggering a firmware update
 
 
 ![alt text](https://github.com/goofy2k/ESPfleet/blob/main/media/Screenshot_Fleet_Mgr.jpg?raw=true)
 
-For each board that contacts the MQTT broker for the first time the properties are collected in a table in the Fleet mgr. The table is updated, every time that a board finishes a wake-up deepsleep cycle.  With the clear fleet button, the table is erased. The input field and  "refresh table" button are obsolete.
+For each board that contacts the MQTT broker for the first time the properties are collected in a table in the Fleet mgr. The table is updated, every time that a board finishes a wake-up deepsleep cycle.  With the ***clear fleet*** button, the table is erased. The ***input field*** and  ***refresh table*** button are obsolete.
 
 Above the table the properties are listed of the device that was the last to send an update.
 
@@ -75,4 +75,4 @@ Commands by the Fleet mgr are sent to the MQTT broker by pressing the Submit but
 
 The update all devices is not active yet. It can be used e.g. to sent an "update available" message to all active device instead of to only the edited device.
 
-The cancel and stop buttons are obsolete.
+The ***cancel*** and ***stop buttons*** are obsolete.
