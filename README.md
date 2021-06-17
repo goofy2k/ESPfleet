@@ -36,5 +36,17 @@ unknown to me how to handle versioning with Github / Arduino IDE.
     
 ## Fleet management dashboard (Nodered)
 
+The management dashboard is implemented in Nodered. In this repository only the main functionality of the dashboard is described. 
+The dashboard consists of 2 screens:
+
+1. The Fleet mgr, with an overview of devices in the fleet.
+2. A device editor for setting parameters of a device and triggering a firmware update
+
+
+![alt text](https://github.com/goofy2k/ESPfleet/blob/main/media/Screenshot_Fleet_Mgr.jpg?raw=true)
+
+bla bla
 
 ![alt text](https://github.com/goofy2k/ESPfleet/blob/main/media/Screenshot_Device_Editor.jpg?raw=true)
+
+bla bla
