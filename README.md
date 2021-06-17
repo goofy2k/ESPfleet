@@ -34,3 +34,4 @@ unknown to me how to handle versioning with Github / Arduino IDE.
     
     power supply: 1000 mAh Lithium Rechargeable Battery (MakerFocus)
 
+    EXTENDED
