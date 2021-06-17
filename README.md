@@ -75,4 +75,4 @@ Commands by the Fleet mgr are sent to the MQTT broker by pressing the Submit but
 
 The update all devices is not active yet. It can be used e.g. to sent an "update available" message to all active device instead of to only the edited device.
 
-The ***cancel*** and ***stop buttons*** are obsolete.
+The ***cancel*** and ***stop*** buttons are obsolete.
