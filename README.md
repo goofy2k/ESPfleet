@@ -49,8 +49,10 @@ For each board that contacts the MQTT broker for the first time the properties a
 
 Above the table the properties are listed of the device that was the last to send an update.
 
+{"deviceId":"8468FAC40A24","blocked":false,"IP":"192.168.2.21","lowpowermode":true,"sleeptime":33,"VersionStr":"V2.10 build 1","autoupdate":false,"lastupdate":"OTAstr"}
+
 - The devices are listed in the order of first contact after the last "clear fleet" action.
-- The unique deviceId contains it's MAC address in reverse order. The last digits in the code are representative for the board type (e.g. Heltec LORA32 ....., TTGO LORA32 ......
+- The unique deviceId contains it's MAC address in reverse order. The last 4 hex digits in this code are representative for the board type (e.g. Heltec LORA32 (01E6E2E0), TTGO LORA32 (FAC40A24)
 - A device can be blocked from the services (see device Editor). This is not yet implemented. 
 - Currently the devices acquire a dynamic IP address on the local network. WiFi credentials (ssid and password) are currently fixed. It requires a construction with the board acting as an access point to allow end-users to set their own parameters. Static adressess are also possible, but the details are not yet implemented. 
 - lowpowermode
