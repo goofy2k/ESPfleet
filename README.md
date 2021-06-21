@@ -7,8 +7,8 @@
 2. About this code
 3. Currently running board fleet hardware
 4. Fleet management dashboard (Nodered)
-  - Fleet mgr
-  - Device editor
+    - Fleet mgr
+    - Device editor
 5. TODO
 6. Version history  
  
