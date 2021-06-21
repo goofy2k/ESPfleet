@@ -92,7 +92,9 @@ The ***cancel*** and ***stop*** buttons are obsolete.
 
 ## 5. TODO
 
-* TODO  
+* TODO 
+*   - implement fallback mode if connection to WIFI fails:  board is an access point (AP) serving a page for entering WIFI credentials of the available network
+      such a  function is also available in the ESPHome code
 *   - must report back if update fails
 *   - re-introduce reconnect to wifi. It was lost somehow. See: https://github.com/marvinroger/async-mqtt-client/blob/master/examples/FullyFeatured-ESP8266/FullyFeatured-ESP8266.ino  
 *   - move your self-created re-usable header files to a central folder, e.g. My Documents\Arduino\libraries\
