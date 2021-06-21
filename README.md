@@ -1,6 +1,18 @@
 # ESPfleet
  Manage fleet of ESP32/ESP8266 boards with Nodered
  
+## Contents
+
+- Goal
+- About this code
+- Currently running board fleet hardware
+- Fleet management dashboard (Nodered)
+ - Fleet mgr
+ - Device editor
+ - TODO
+ - Version history  
+ 
+ 
 ## Goal
  
 The objective of this project is to generate a system for maintaining a "fleet" of ESP microcontroller boards, including (automatic) firmware updates.
