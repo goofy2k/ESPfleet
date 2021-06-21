@@ -3,17 +3,17 @@
  
 ## Contents
 
-- Goal
-- About this code
-- Currently running board fleet hardware
-- Fleet management dashboard (Nodered)
- - Fleet mgr
- - Device editor
- - TODO
- - Version history  
+1. Goal
+2. About this code
+3. Currently running board fleet hardware
+4. Fleet management dashboard (Nodered)
+  - Fleet mgr
+  - Device editor
+5. TODO
+6. Version history  
  
  
-## Goal
+## 1. Goal
  
 The objective of this project is to generate a system for maintaining a "fleet" of ESP microcontroller boards, including (automatic) firmware updates.
  
@@ -32,21 +32,21 @@ download and install the update.
 
 The boards execute an awake - deep sleep cycle with configurable sleep time. This enables long battery life. 
  
-## About this code 
+## 2. About this code 
 
 The ESP firmware is written in the Arduino IDE. Development Notes have been kept in a README.md.ino file.
 The .ino extension of this file is necessary to open it for editing in a tab in the Arduino IDE 
 Versions have until now been managed by creation of new folders, accessible by the Arduino IDE. It is yet
 unknown to me how to handle versioning with Github / Arduino IDE.
  
-## Currently running board fleet hardware
+## 3. Currently running board fleet hardware
 
     - 1x Heltec LORA32 .....
     - 2x TTGO LORA32 ....
     
     power supply: 1000 mAh Lithium Rechargeable Battery (MakerFocus)
     
-## Fleet management dashboard (Nodered)
+## 4. Fleet management dashboard (Nodered)
 
 The management dashboard is implemented in Nodered. In this repository only the main functionality of the dashboard is described. 
 
@@ -88,3 +88,7 @@ Commands by the Fleet mgr are sent to the MQTT broker by pressing the Submit but
 The update all devices is not active yet. It can be used e.g. to sent an "update available" message to all active device instead of to only the edited device.
 
 The ***cancel*** and ***stop*** buttons are obsolete.
+
+## 5. TODO
+
+## 6. Version history 
