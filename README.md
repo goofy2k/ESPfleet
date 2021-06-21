@@ -92,7 +92,11 @@ The ***cancel*** and ***stop*** buttons are obsolete.
 
 ## 5. TODO
 
+For now, see the README.md.ino file in this repository.
+
 ## 6. Version history 
+
+For now, see the README.md.ino file in this repository.
 
 ## 7. References / Further reading 
 
